@@ -1,19 +1,18 @@
-# 🏦 Sistema de Cuenta Bancaria
+# 🏦 Proyecto Mini Banco en Python
 
-Un simulador de cuenta bancaria desarrollado en **Python**.  
-Permite realizar depósitos, retiros, solicitar préstamos con comisión y pagarlos de forma parcial o total.  
-Incluye un menú interactivo en consola para gestionar todas las operaciones.
+## 📌 Descripción
+Este proyecto simula un **sistema bancario básico** con cuentas de ahorro y cuentas corrientes.  
+Permite realizar operaciones como depósitos, retiros, préstamos y pagos de préstamos, además de mostrar el estado de cada cuenta.
 
-A banking account simulator developed in **Python**.  
-It allows deposits, withdrawals, requesting loans with commission, and paying them partially or fully.  
-Includes an interactive console menu to manage all operations.
+This project simulates a **basic banking system** with savings and checking accounts.  
+It allows operations such as deposits, withdrawals, loans, and loan repayments, as well as displaying account status.
 
 ---
 
-## 🚀 Características / Features
-- 💰 **[Depósitos](ca://s?q=Depositos_en_Python)**: agregar saldo a la cuenta.  
-- 💸 **[Retiros](ca://s?q=Retiros_en_Python)**: retirar dinero con validación de fondos.  
-- 📊 **[Préstamos](ca://s?q=Prestamos_en_Python)**: solicitar préstamos con un 5% de comisión.  
-- 🧾 **[Pagos parciales o totales](ca://s?q=Pagos_parciales_y_totales_en_Python)**: elegir qué préstamo pagar y cuánto.  
-- 👤 **[Menú interactivo](ca://s?q=Menu_interactivo_en_Python)**: opciones claras para el usuario.  
-
+## 🏗️ Estructura del proyecto
+- **[cuenta.py](ca://s?q=Clase_Cuenta_en_Python)** → Clase base `Cuenta` (titular, saldo, métodos comunes).  
+- **[ahorro.py](ca://s?q=Clase_Ahorro_en_Python)** → Clase `Ahorro` que hereda de `Cuenta`.  
+- **[corriente.py](ca://s?q=Clase_Corriente_en_Python)** → Clase `Corriente` que hereda de `Cuenta` y añade préstamos y límite de descubierto.  
+- **[banco.py](ca://s?q=Clase_Banco_en_Python)** → Clase `Banco` que administra las cuentas y el menú principal.  
+m/tuusuario/mini-banco-python.git
+   cd mini-banco-python
